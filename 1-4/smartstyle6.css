@@ -15,6 +15,14 @@
         width: 75px;
     }
 
+    .up-4{
+        width: 125px;
+    }
+
+    .down-5{
+        width: 125px;
+    }
+
     .right-bottom-6{
         width: 200px;
     }
@@ -47,6 +55,14 @@
         width: 100%;
     }
     
+    .up-4{
+        width: 150px;
+    }
+
+    .down-5{
+        width: 150px;
+    }
+
     .right-bottom-6{
         float: none;
         width: 100%;
