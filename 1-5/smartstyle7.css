@@ -1,0 +1,58 @@
+@media screen and (max-width: 479px) {
+    .wrapper{
+        width: 200px;
+    }
+ 
+    .header{
+        height: auto;
+        padding: 20px 70px 20px 70px;
+    }
+
+    .header-box { 
+        width: 60px; 
+        height: 160px;
+        margin: auto;
+        position: initial;
+    }
+
+    .parent-1{
+        width: 40px;
+        height: 140px;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 10px;
+    }
+
+    .item-1{ 
+        margin: 10px auto 10px auto;
+        display: block;
+    }
+
+    .left{
+        width: 200px;
+        float: none; /* 要素の浮動化の解除 */
+    }
+    
+    .right{
+        width: auto;
+        height: auto;
+        float: none; /* 要素の浮動化の解除 */
+        padding: 20px 30px 20px 30px;
+    }
+
+    .parent-2{
+        width: 140px;
+        height: auto;
+        padding: initial;
+    } 
+
+    .item-2{
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+    .footer{
+        width: 200px;
+    }
+}
