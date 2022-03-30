@@ -31,7 +31,7 @@ $MySQL = $_POST['MySQL'];
 
 <p>③の答え</p>
     <?php
-        if ($MySQL == 'select') {
+        if ($MySQL == "select") {
             echo "正解！";
         } else {
             echo "残念・・・";

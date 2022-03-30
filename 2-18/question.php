@@ -39,5 +39,6 @@ $MySQL= array("join","select","insert","update");
     echo '<br>';
 	?>  
 <!--問題の正解の変数と名前の変数を[answer.php]に送る-->
+<input type="hidden" name="my_name" value="<?php echo $my_name; ?>">
 <input type="submit" value="回答する">
 </form>
