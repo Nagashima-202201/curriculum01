@@ -11,43 +11,29 @@ $MySQL = $_POST['MySQL'];
 ?>
 <p><?php echo $my_name; ?>さんの結果は・・・？</p>
 
-<?php
-//ユーザー定義関数の作成
-function true(){
- echo "正解！<br/>\n";
-}
-function forse(){
- echo "残念・・・<br/>\n";
-}
-?>
 <p>①の答え</p>
     <?php
-    if ($number == 80) 
-     $answer = 'true';
-     else $answer = 'forse';
-
-     if(function_exists($answer))
-     $answer();
-    ?>
+    if ($number == 80) {
+        echo "正解！";
+    } else {
+        echo "残念・・・";
+    }
+?>
 
 <p>②の答え</p>
     <?php
-    if ($web == "HTML") 
-     $answer = 'true';
-     else $answer = 'forse';
-
-     if(function_exists($answer))
-     $answer();
+    if ($web == "HTML") {
+        echo "正解！";
+    } else {
+        echo "残念・・・";
+    }
     ?>
 
 <p>③の答え</p>
     <?php
-    if ($MySQL == "select") 
-     $answer = 'true';
-     else $answer = 'forse';
-
-     if(function_exists($answer))
-     $answer();
-    ?>
-
-
+        if ($MySQL == "select") {
+            echo "正解！";
+        } else {
+            echo "残念・・・";
+        }
+        ?>
